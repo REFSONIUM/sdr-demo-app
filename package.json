@@ -1,8 +1,12 @@
 {
   "name": "sdr-demo-app",
   "version": "0.1.0",
-  "description": "Smart wardrobe assistant – GENESIS sdr-demo-app skeleton (GEN-256)",
+  "description": "Smart wardrobe assistant – GENESIS sdr-demo-app skeleton (GEN-259)",
   "main": "src/server.js",
+  "engines": {
+    "node": ">=18",
+    "npm": ">=9"
+  },
   "scripts": {
     "start": "node src/server.js",
     "test": "jest --testEnvironment node --forceExit"
