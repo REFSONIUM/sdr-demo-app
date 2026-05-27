@@ -2,10 +2,13 @@
 
 /**
  * Server entry point.
- * Port is read from the PORT environment variable; defaults to 3000.
- * No application secrets are hard-coded here.
+ *
+ * Port is read exclusively from the PORT environment variable (default: 3000).
+ * HOST is read from the HOST environment variable (default: 0.0.0.0).
+ * No application secrets or port values are hard-coded in source.
  *
  * GEN-256 – scaffold sdr-demo-app web application entry point and HTML shell.
+ * GEN-260 – minimal server entry point serving HTTP 200 at / with env-only config.
  */
 
 const { createApp } = require('./app');

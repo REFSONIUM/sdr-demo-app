@@ -5,6 +5,7 @@
  * Separated from server.js so tests can import the app without binding a port.
  *
  * GEN-256 – scaffold sdr-demo-app web application entry point and HTML shell.
+ * GEN-260 – serves index.html (containing <title>Hello App</title>) at GET /.
  */
 
 const express = require('express');
